@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#events">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Welcome to Our Restaurant</h1>
+        <p>Experience the finest dining with us.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-category">
+            <h3>Appetizers</h3>
+            <ul>
+                <li>Bruschetta - $5.00</li>
+                <li>Stuffed Mushrooms - $6.50</li>
+            </ul>
+        </div>
+        <div class="menu-category">
+            <h3>Main Courses</h3>
+            <ul>
+                <li>Grilled Salmon - $15.00</li>
+                <li>Steak Frites - $18.00</li>
+            </ul>
+        </div>
+        <div class="menu-category">
+            <h3>Desserts</h3>
+            <ul>
+                <li>Tiramisu - $6.00</li>
+                <li>Chocolate Lava Cake - $7.00</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Reservations Section -->
+    <section id="reservations">
+        <h2>Reserve a Table</h2>
+        <form id="reservation-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <h3>Wine Tasting Night</h3>
+            <p>Date: July 15, 2025</p>
+            <p>Join us for an exclusive wine tasting experience.</p>
+        </div>
+        <div class="event">
+            <h3>Live Jazz Evening</h3>
+            <p>Date: August 20, 2025</p>
+            <p>Enjoy live jazz music with your dinner.</p>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+

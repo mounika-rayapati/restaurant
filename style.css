@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background: url('restaurant.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 1.5em;
+}
+
+/* Menu Section */
+#menu {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.menu-category {
+    margin-bottom: 30px;
+}
+
+.menu-category h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.menu-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-category ul li {
+    font-size: 1.2em;
+}
+
+/* Reservations Section */
+#reservations {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#reservation-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#reservation-form label {
+    margin: 10px 0 5px;
+}
+
+#reservation-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#reservation-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reservation-form button:hover {
+    background-color: #555;
+}
+
+/* Events Section */
+#events {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.event {
+    margin-bottom: 30px;
+}
+
+.event h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.event p {
+    font-size: 1.2em;
+}
